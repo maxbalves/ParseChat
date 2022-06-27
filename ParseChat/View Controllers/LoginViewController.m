@@ -102,7 +102,7 @@
 
 - (void) presentChat {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UINavigationController *navigationController = [storyboard instantiateViewControllerWithIdentifier:@"LoginNavigationController"];
+    UINavigationController *navigationController = [storyboard instantiateViewControllerWithIdentifier:@"ChatNavigationController"];
     // TODO: pass data (if necessary)
     [self presentViewController:navigationController animated:YES completion:nil];
 }
